@@ -6,6 +6,7 @@ For more information, please see the [official GS1 standard](https://ref.gs1.org
 
 # Installation
 `npm install gs1-price-verifier`
+
 `import gs1PriceVerifier from 'gs1-price-verifier'`
 
 # Usage
