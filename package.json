@@ -1,0 +1,30 @@
+{
+  "name": "gs1-price-verifier",
+  "version": "1.0.0",
+  "description": "GS1 price verifier calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starsky135/gs1-price-verifier.git"
+  },
+  "keywords": [
+    "gs1",
+    "barcode",
+    "price",
+    "verifier",
+    "check",
+    "digit",
+    "code128",
+    "ean-13",
+    "upc"
+  ],
+  "author": "Oliver Hardman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starsky135/gs1-price-verifier/issues"
+  },
+  "homepage": "https://github.com/starsky135/gs1-price-verifier#readme"
+}
