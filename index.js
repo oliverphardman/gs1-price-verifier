@@ -80,20 +80,16 @@ export default function (price) {
     }
     total += s1
 
-
     // Digit 2
-    let s2 = parseInt(price[1]) * 3
+    let s2 = parseInt(price[1]) * 2
     if (s2 >= 10) {
-      s2 = parseInt(s2.toString()[1])
+      s2 = parseInt(s2.toString()[1]) - parseInt(s2.toString()[0])
     }
     total += s2
 
     // Digit 3
-    let s3 = parseInt(price[2]) * 5
-    if (s3.toString().length > 1) {
-      s3 = s3 - parseInt(s3.toString()[0])
-      s3 = parseInt(s3.toString()[s3.toString().length - 1])
-    }
+    let s3 = parseInt(price[2]) * 3
+    s3 = parseInt(s3.toString()[s3.toString().length - 1])
     total += s3
 
     // Digit 4
@@ -106,7 +102,7 @@ export default function (price) {
 
     total = (total * 3).toString()[total.toString().length - 1]
 
-    return weightingFactors[total.toString()]
+    return total
   } else {
     throw new Error("Invalid price length")
   }
