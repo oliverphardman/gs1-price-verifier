@@ -99,8 +99,7 @@ export default function (price) {
       s4 = parseInt(s4.toString()[s4.toString().length - 1])
     }
     total += s4
-
-    total = (total * 3).toString()[total.toString().length - 1]
+    total = (total * 3).toString()[(total * 3).toString().length - 1]
 
     return total
   } else {
