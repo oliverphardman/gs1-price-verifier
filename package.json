@@ -1,6 +1,6 @@
 {
   "name": "gs1-price-verifier",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "GS1 price verifier calculator",
   "main": "index.js",
   "type": "module",
